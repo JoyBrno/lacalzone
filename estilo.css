@@ -145,7 +145,7 @@ div.paralax > p {
 	margin: auto;
 	padding: 20px;
 	background-color: #0000008a;
-	width: 50vh;
+	max-width: 50vh;
 	border: 1px solid black;
 	border-top: none;
 }
@@ -154,7 +154,7 @@ div.paralax > h1 {
 	color: white;
 	padding: 10px 20px 0px 20px;
 	background-color: #0000008a;
-	width: 50vh;
+	max-width: 50vh;
 	text-align: center;
 	margin: auto;
 
