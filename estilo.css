@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	text-align: justify;
+}
+
+body {
+	background-color: #ecf1ec;
+}
+
+#mn {
+	display: flex;
+	margin-left: auto;
+}
+
+.botao-menu { 
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+#menu {
+	background-color: #125545;
+	padding: 10px 0px 0px 0px;
+	margin: auto;
+}
+
+nav {
+	text-align: center;
+	background-color: #941113;
+	padding: 2px;
+	border: 1px solid black;
+	border: 1px 0px 1px 0px;
+}
+
+nav > a {
+	font-family: Arial, helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+header  h1 {
+	padding: 10px 10px 0px 10px;
+	color:white;
+}
+
+header  p {
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	padding: 0px 10px 10px 10px;
+}
+
+#cabecalho {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto 0px 0px;
+}
+
+#content {
+	background-color: white;
+	box-shadow: 0px 0px 5px black;
+	font-family: arial, sans-serif;
+	padding: 10px 30px 20px 30px;
+	margin: auto;
+	max-width: 800px;
+	min-width: 300px;
+}
+
+#content p {
+	line-height: 1.5em;
+}
+
+#imagens {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+#artigo1 > h1 {
+	text-decoration: underline;
+	font-family: arial, helvetica, sans-serif;
+	text-align:center;
+	margin: 16px 0px 0px 0px;
+}
+
+#secao1 > p {
+	text-indent: 20px;
+}
+
+#imagem0 {
+	margin: 0px 5px 0px auto;
+}
+
+#imagem1 {
+	width: 100%;
+	text-align: center;
+}
+
+#abbr1, #abbr2 {
+	color:blue;
+	text-decoration: none;
+}
+
+#abbr1:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#abbr2:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+strong:hover {
+	text-decoration: underline;
+}
+
+div.paralax {
+	background-image: url('lacalzone.ico');
+	background-position: center center;
+	background-size: 55vw;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	height: 400px;
+	text-shadow: 2px 2px 0px #941113;
+	margin: 50px auto auto auto;
+}
+
+div.paralax > p {
+	color: white;
+	margin: auto;
+	padding: 20px;
+	background-color: #0000008a;
+	width: 50vh;
+	border: 1px solid black;
+	border-top: none;
+}
+
+div.paralax > h1 {
+	color: white;
+	padding: 10px 20px 0px 20px;
+	background-color: #0000008a;
+	width: 50vh;
+	text-align: center;
+	margin: auto;
+
+	border: 1px solid black;
+	border-bottom: none;
+}
+
+footer {
+	background-color: black;
+	border: 1px solid black;
+	padding: 1px;
+}
+
+footer > p {
+	margin: 8px;
+	color: white;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}	
