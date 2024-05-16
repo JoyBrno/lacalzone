@@ -47,4 +47,14 @@
 <footer>
 	<p>Site Desenvolvido Por BRUNO<p>
 	</footer>
+	<script>
+		var name = window.prompt('Qual seu nome?')
+		var bv = document.getElementsByTagName('h1')[0]
+		if (name == 'null'){
+			bv.textContent = 'Bem Vindo(a)'
+		}
+		else {
+			bv.textContent = `Bem Vindo(a) ${name}!`
+		}
+	</script>
 </body>
